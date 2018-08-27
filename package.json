@@ -16,6 +16,7 @@
     "pixi-picture": "^1.2.1",
     "preact": "^8.2.9",
     "preact-compat": "^3.18.2",
+    "preact-pixi": "git+https://github.com/bacti/preact-pixi.git#74135bc",
     "raw-loader": "^0.5.1"
   }
 }
