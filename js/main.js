@@ -2,7 +2,6 @@ import { h, render, Component } from 'preact'
 import { Stage, Container } from 'preact-pixi'
 import resource from './Debug'
 global.resource = resource
-import ActionPhrase from './ActionPhrase'
 import BasicSprite from './basics/BasicSprite'
 import BasicContainer from './basics/BasicContainer'
 import BasicContainerPivot from './basics/BasicContainerPivot'
@@ -56,7 +55,6 @@ class App extends Component
                     backgroundColor: 0x1099bb
                 }}
             >
-                <ActionPhrase />
                 <Container>
                     {/* <BasicSprite /> */}
                     {/* <BasicContainer /> */}
@@ -91,7 +89,7 @@ class App extends Component
                     {/* <DemoAlphaMask /> */}
                     {/* <DemoMouseTrail /> */}
                     {/* <DemoCustomCursor /> */}
-                    {/* <DemoSlots /> */}
+                    <DemoSlots />
                     {/* <DemoStarWarp /> */}
                 </Container>
                 <Container>
